@@ -3,21 +3,80 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Random String Generator</title>
     <style>
       body {
-        font-family: "Arial", sans-serif;
+        font-family: "Averia Sans Libre";
         text-align: center;
+        color: rgb(218, 218, 219);
         margin: 20px;
+        background-color: rgb(29, 30, 32);
+      }
+
+      button {
+        font-size: 1.5em;
+        font-family: "Averia Sans Libre";
+        color: rgb(218, 218, 219);
+        padding: 20px;
+        border-radius: 10px;
+        filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.5));
+        border-width: 0;
+        background-color: rgb(46, 46, 51);
+        scale: 1;
+        transition: scale 0.2s, rotate 0.4s;
+      }
+
+      button:hover {
+        scale: 1.1;
+        transition: all 0.2s;
+      }
+
+      button:active {
+        rotate: 360deg;
+        scale: 1.1;
+        transition: rotate 0s;
+      }
+      section {
+        margin: 0 auto;
+        max-width: 75%;
+        filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.5));
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        border-radius: 10px;
+        background-color: rgb(46, 46, 51, 0.5);
+      }
+      a {
+        color: rgb(218, 218, 219);
       }
     </style>
     <script src="https://cdn.jsdelivr.net/npm/rot-js@2/dist/rot.js"></script>
   </head>
   <body>
-    <h1>Random String Generator</h1>
-    <button onclick="generateStrings()">Generate Strings</button>
+    <h1>Dungeon Synth Name Generator</h1>
+    <button onclick="generateStrings()">Generate Names</button>
     <div id="output"></div>
+    <section>
+      <h2>What is this?</h2>
+      <p>
+        This is a simple generator that uses Markov chains to create random
+        Dungeon Synth names. It uses a list of names from the
+        <a href="https://www.dungeon-codex.com/">dungeon codex</a>. The names
+        can be a bit wacky sometimes.
 
+        <br />
+        <br />
+        Made by <a href="htttps://dvdtsb.github.io/">dvdtsb/</a>
+      </p>
+    </section>
     <script src="app.js"></script>
   </body>
 </html>
