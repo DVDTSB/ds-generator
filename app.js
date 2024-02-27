@@ -1,6 +1,4 @@
-var data = 
-  .trim()
-  .split("\n");
+var data;
 
 function is_good(str) {
   if (data.includes(str)) {
@@ -26,20 +24,33 @@ function generateStrings() {
 
 var sg = new ROT.StringGenerator();
 
-var lines = data.slice();
-
-while (lines.length) {
-  var line = lines.pop().trim();
-  if (!line) {
-    continue;
-  }
-  sg.observe(line);
+function fetchData() {
+  fetch("https://raw.githubusercontent.com/DVDTSB/ds-generator/main/data.txt")
+    .then((response) => response.text())
+    .then((text) => {
+      data = text.trim().split("\n");
+      initializeGenerator();
+    })
+    .catch((error) => console.error("Error fetching data:", error));
 }
 
-// Initial generation when the page loads
+function initializeGenerator() {
+  var lines = data.slice();
 
-document.addEventListener("DOMContentLoaded", function () {
+  while (lines.length) {
+    var line = lines.pop().trim();
+    if (!line) {
+      continue;
+    }
+    sg.observe(line);
+  }
+
+  // Initial generation when the page loads
   generateStrings();
+}
 
+// Fetch data from GitHub repo and initialize generator when the page loads
+document.addEventListener("DOMContentLoaded", function () {
+  fetchData();
   window.generateStrings = generateStrings;
 });
