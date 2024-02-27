@@ -39,14 +39,23 @@ function levenshtein(a, b) {
 }
 
 function is_good(str) {
-  data.forEach((word) => {
-    if (levenshtein(str, word) > 5 || word == str) {
-      return false;
-    }
-  });
   if (data.includes(str)) {
     return false;
   }
+  if (str.length() < 4 || str.length() > 30) {
+    return false;
+  }
+
+  var ok = true;
+  data.forEach((word) => {
+    if (levenshtein(str, word) < 6) {
+      ok = false;
+    }
+  });
+  if (!ok) {
+    return false;
+  }
+
   return true;
 }
 
@@ -56,9 +65,6 @@ function generateStrings() {
 
   for (var i = 0; i < 10; ) {
     let str = sg.generate();
-    if (Math.random(0, 1) > 0.99999) {
-      str = "Thee Baron of Fenmoss ";
-    }
     if (is_good(str)) {
       var paragraph = document.createElement("p");
       paragraph.textContent = str;
@@ -75,9 +81,17 @@ function fetchData() {
     .then((response) => response.text())
     .then((text) => {
       data = text.trim().split("\n");
-      initializeGenerator();
     })
-    .catch((error) => console.error("Error fetching data:", error));
+    .then(() => {
+      fetch(
+        "https://raw.githubusercontent.com/DVDTSB/ds-generator/main/data2.txt"
+      )
+        .then((response) => response.text())
+        .then((text) => {
+          data = data.concat(text.trim().split("\n"));
+        });
+    })
+    .then(initializeGenerator);
 }
 
 function initializeGenerator() {

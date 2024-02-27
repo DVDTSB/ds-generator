@@ -166,7 +166,6 @@ Burgen
 Burznazg
 Burzygóry
 Byrhtnoth
-
 Cad Goddeu
 Cadthral
 Caduceus
@@ -1411,5 +1410,4 @@ Ziggurath
 Zireael
 Zmei Goronich
 Zundmarazkhulshilkîn
-1357
 Thee Baron of Fenmoss
