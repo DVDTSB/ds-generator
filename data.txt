@@ -656,6 +656,26 @@ Istarion
 Ithildin
 Ivory Altar
 The IXth Key
+The Ist
+The IInd 
+The IIrd
+The IVth
+The Vth
+The VIth
+The VIIth
+The VIIIth
+The IXth
+The Xth
+The XIth
+The XIIth
+The XIIIth
+The XIVth
+The XVth
+The XVIth
+The XVIIth
+The XVIIIth
+The XIXth
+The XXth
 Jääportit
 Jåshlýkk
 Javor Trnovit
