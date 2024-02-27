@@ -89,9 +89,9 @@ function fetchData() {
         .then((response) => response.text())
         .then((text) => {
           data = data.concat(text.trim().split("\n"));
-        });
-    })
-    .then(initializeGenerator);
+        })
+        .then(initializeGenerator);
+    });
 }
 
 function initializeGenerator() {
