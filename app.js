@@ -45,6 +45,9 @@ function is_good(str) {
   if (str.length < 4 || str.length > 30) {
     return false;
   }
+  if (str.split(" ").length > 6 || str.split(" ").length < str.lenght / 20) {
+    return false;
+  }
 
   var ok = true;
   data.forEach((word) => {
@@ -52,6 +55,7 @@ function is_good(str) {
       ok = false;
     }
   });
+
   if (!ok) {
     return false;
   }
