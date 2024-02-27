@@ -42,7 +42,7 @@ function is_good(str) {
   if (data.includes(str)) {
     return false;
   }
-  if (str.length() < 4 || str.length() > 30) {
+  if (str.length < 4 || str.length > 30) {
     return false;
   }
 
