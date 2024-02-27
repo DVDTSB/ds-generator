@@ -40,7 +40,7 @@ function levenshtein(a, b) {
 
 function is_good(str) {
   data.forEach((word) => {
-    if (levenshtein(str, word) < 6 || word == str) {
+    if (levenshtein(str, word) > 5 || word == str) {
       return false;
     }
   });
@@ -54,7 +54,7 @@ function generateStrings() {
   var outputDiv = document.getElementById("output");
   outputDiv.innerHTML = "";
 
-  for (var i = 0; i < 10; i++) {
+  for (var i = 0; i < 10; ) {
     let str = sg.generate();
     if (Math.random(0, 1) > 0.99999) {
       str = "Thee Baron of Fenmoss ";
@@ -63,6 +63,7 @@ function generateStrings() {
       var paragraph = document.createElement("p");
       paragraph.textContent = str;
       outputDiv.appendChild(paragraph);
+      i++;
     }
   }
 }
