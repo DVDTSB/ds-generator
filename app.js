@@ -48,7 +48,7 @@ function is_good(str) {
 
   var ok = true;
   data.forEach((word) => {
-    if (levenshtein(str, word) < 6) {
+    if (levenshtein(str, word) < 4) {
       ok = false;
     }
   });
