@@ -56,7 +56,9 @@ function generateStrings() {
 
   for (var i = 0; i < 10; i++) {
     let str = sg.generate();
-
+    if (Math.random(0, 1) > 0.99999) {
+      str = "Thee Baron of Fenmoss ";
+    }
     if (is_good(str)) {
       var paragraph = document.createElement("p");
       paragraph.textContent = str;
