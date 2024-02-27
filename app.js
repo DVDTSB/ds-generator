@@ -25,7 +25,7 @@ function levenshtein(a, b) {
         matrix[i][j] = matrix[i - 1][j - 1];
       } else {
         matrix[i][j] = Math.min(
-          matrix[i - 1][j - 1] + 3, // substitution
+          matrix[i - 1][j - 1] + 1, // substitution
           Math.min(
             matrix[i][j - 1] + 1, // insertion
             matrix[i - 1][j] + 1
