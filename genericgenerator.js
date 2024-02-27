@@ -276,4 +276,5 @@ let data = [];
 for (let i = 0; i < 100; i++) {
   data.push(generate());
 }
-fs.writeFileSync("data2.txt", data.join("\n"));
+
+fs.writeFileSync("data2.txt", data.concat(nouns).concat(adjectives).join("\n"));

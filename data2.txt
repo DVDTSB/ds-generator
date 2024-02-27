@@ -1,100 +1,289 @@
- Rising and the Blind Tale
-A Genesis with Odyssey
-Our Giant
-The Path and the Lunar Mantis
-The Hall of the Smoking Cave
-The Wanderer and the Wicked Rites
- Last Beast
-Stoned or Shamanic
-Shamanic Centaur
-A Fuzz without Gnome
-Purple Crypt of Genesis
- Cathedral of the Toxic Shaman
-Dark Mass of Desert Imp
-The Hobbit in a Manor
-Spirit and Cursed
-The Mighty Cave
-The Slumber and the Dark Wizard
-The Lizard in the Fortress
-The Wizard in the Dungeon
- Tomb in a Town
-Purple Gate and Blind God
-The Wizard in a Village
-Acid Giant
-The Rites and the Secret Star
-The Nymph in a Manor
-Cursed Void
-Esoteric and Blind
-Through Psychedelic Cave
-Shamanic Town
-In the Manor of the Lunar Rising
-Our Spell
-Last Town of Lord
-Alchemical Centaur of the Fallen Frost
-The Hobbit in a Cave
- Sacred and Space Echo
- Knight in the Village
-In the Dungeon of the Dawn Werewolve
-In the Hall of the Holy Forest
-Spirit Wood and Lunar Dryad
- Darkness of the Lunar Warrior
-Mighty Tale and Prince
-The Town of the Astral Meadow
-Space Moth and Nymph
-A Mammoth with Dwarf
-A Troll in a Temple
-The Holy Void in the Cave of Throne
-Celestial Tome of the Tower
-Under the Lost Tomb
-In the Magic Tomb
-Bloody Curse of Celestial Hobbit
-The Orc in the Town
-Silent Magician
-The Sleep Witchcraft
-Fallen but Secret
-A Children, a King, a Dream
- Gate
-The Tomb of the Eternal Spell
-A Serpent, a Mantis, a Dream
-The Dungeon of the Silent Thief
-The Prince in the Wood
-Our Shelter
- Purple Staircase
- Rites and the Magic Shadow
-Flying Moon and Acid Temple
-In the Fortress of the Doomed Valley
-Hidden Serpent and Wizard
-Ancient Wizard of the Throne
- Wood of the Psychedelic Cavern
-The Gnome in a Dungeon
-Alchemical Crypt
-Lonely Dwarf of the Prince
-Into the Lucid Dungeon
- Lucid Hallucination
-The Wood of the Haunted Castle
-An  Orc in a Castle
-The Smoking Gnome's Trip
-Hidden Smoke
-The Dryad in a Cavern
-A Star without Queen
-Holy Thief
-Haunted Path of the Void
-Troll and Goat
-Acid Town of Sorcerer
-In the Temple of the Purple Curse
- Void Troll's Hall
-In the Hall of the Alchemical Goat
-Satyr or Haze
-The Werewolve in the Dungeon
-The Hall of the Shamanic Crypt
- Meadow in a Castle
- Dream and the Sacred Centaur
- Goblin and the Blind Cave
-The Forgotten Thief in the Crypt of Blood
-The Ruined Journey
-A Dragon in the Crypt
-The Echo and the Lost Lore
-The Wizard's Temple
- Throne and the Sacred Synth
-The Forgotten Mammoth
- Hydra's Cathedral
+Forgotten Staircase
+In the Castle of the Lonely King
+An  Imp in the Tomb
+ Goat and the Solar Lizard
+Dark Manor
+In the Dungeon of the Space Tale
+The Brotherhood of the Flying Tower
+The Lunar Cave in the Forest of Rising
+Cauldron with Caravan
+Lost Hobbit
+Esoteric Brotherhood of the Last Warrior
+Into the Lucid Cave
+Astral Sun of the Enchanted Shadow
+The Flying Meadow in the Wood of Moth
+In the Town of the Psychic Forest
+Sacred Wizard
+Moth without Wizard
+The Haunted Gnome
+ Dragon's Temple
+ Iron Genesis
+Witchcraft for a Genesis
+Temple and Meadow
+Iron Magician and Warrior
+The Dreamy Demon
+ Desert Hydra's Moon
+ Lore of the Magic Knight
+A Staircase with Moon
+The Shamanic Throne
+The Troll's Manor
+Magic Path of the Lucid Funeral
+Doom and Dungeon
+The Dungeon of the Holy Gnome
+Haunted Wizard
+Dark Odyssey
+Through Esoteric Village
+Celestial King and Orange Pharaoh
+Visions and Throne
+Dreamy Giant
+ Fortress of the Stoned Memories
+Secret or Celestial
+ Haunted Throne
+Under the Lost Castle
+ Acid Moon
+A Hall in the Valley
+An  Imp in a Tomb
+Orange Funeral of Tower
+The Cavern of the Dead Magician
+ Doomed and Dark Dragon
+ Frozen Darkness
+Last Sorcerer
+Dead Curse of Village
+The Fortress of the Lonely Fortress
+Hidden Dwarf
+Tower and Spirit
+The Hobbit in a Dungeon
+ Frozen Satyr's Gnome
+A Hall in a Forest
+The Lizard in the Castle
+The Cavern of the Grey Dryad
+An  Orc for a Haze
+Grey Blood
+Into the Esoteric Village
+The Holy Journey
+Stoned Spirit of Meadow
+Crimson Knight of the Void Prince
+ Throne of the Solar Scroll
+ Village of the Void Lord
+The Esoteric Nymph
+Eternal Throne
+The Orc in a Fortress
+ Lost Town in the Fortress of Priest
+The Goblin's Hall
+In the Grey Village
+ Beast of the Dreamy Cult
+A Lizard in a Valley
+The Star of the Dead Journey
+The Hall of the Sacred Prince
+Old Tome
+The Forest of the Enchanted Elf
+ Dwarf and the Astral Mage
+The Giant in a Cave
+ Tomb and the Doomed Staircase
+The Guild in a Valley
+The Lucid Altar
+Sacred Tower of the Prince
+A Shaman for a Doom
+Sleep Odyssey and Castle
+The Lair of the Dark Brotherhood
+Purple Forgetfulness
+Your Memories
+The Werewolve in a Temple
+Gate or Children
+ Ancient Caravan in the Cave of Witchcraft
+Journey and Fortress
+An  Orc in a Cave
+ Smoking Shelter
+The Wizard's Forest
+A Druid for a Cathedral
+ Void Throne in the Tomb of Lizard
+ Fortress of the Smoking Snake
+Staircase
+Fountain
+Forgetfulness
+Glory
+Wizard
+Lore
+Hope
+Haze
+Sleep
+Knight
+Lord
+Bloom
+God
+Guild
+Darkness
+Crystal
+Circle
+Star
+Pharaoh
+Queen
+Cauldron
+Wanderer
+Ceremony
+Path
+Journey
+Odyssey
+Caravan
+Mammoth
+Rites
+Cult
+Beast
+Sun
+Leaf
+Prophet
+Priest
+Moon
+Monolith
+Demon
+Slumber
+Swamp
+Druid
+Altar
+Memories
+Rising
+Visions
+Covenant
+Genesis
+Sorcerer
+Dream
+Fuzz
+Shadow
+Death
+Smoke
+Curse
+Throne
+Snake
+Serpent
+Trip
+Void
+Meadow
+Shaman
+Echo
+Hallucination
+Moth
+Tomb
+Tale
+Spirit
+Doom
+Spell
+Funeral
+Children
+Ghost
+Witch
+Gold
+Witchcraft
+Frost
+Blood
+Wizard
+Goat
+Mantis
+King
+Prince
+Warrior
+Thief
+Mage
+Mass
+Brotherhood
+Throne
+Shelter
+Golem
+Archive
+Synth
+Gate
+Magician
+Tome
+Scroll
+Dragon
+Wizard
+Giant
+Lizard
+Hobbit
+Elf
+Dwarf
+Gnome
+Troll
+Nymph
+Dryad
+Satyr
+Centaur
+Demon
+Imp
+Orc
+Goblin
+Werewolve
+Hydra
+Tower
+Cathedral
+Fortress
+Tomb
+Valley
+Temple
+Forest
+Dungeon
+Hall
+Town
+Castle
+Village
+Cave
+Crypt
+Manor
+Lair
+Cavern
+Wood
+Ruined
+Hidden
+Lost
+Dark
+Dawn
+Ancient
+Frozen
+Magic
+Celestial
+Wicked
+Silent
+Mighty
+Toxic
+Iron
+Eternal
+Sleep
+Space
+Sacred
+Flying
+Floating
+Doomed
+Void
+Crimson
+Enchanted
+Lucid
+Desert
+Fallen
+Lunar
+Solar
+Dreamy
+Haunted
+Forgotten
+Psychic
+Cursed
+Orange
+Last
+Astral
+Stoned
+Shamanic
+Blind
+Old
+Spirit
+Dead
+Holy
+Lost
+Psychedelic
+Bloody
+Lonely
+Dark
+Grey
+Purple
+Smoking
+Acid
+Esoteric
+Secret
+Alchemical
