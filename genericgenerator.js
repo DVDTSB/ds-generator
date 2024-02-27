@@ -273,7 +273,7 @@ function generate() {
 //generate 1200 names and add them to a file data2.txt
 const fs = require("fs");
 let data = [];
-for (let i = 0; i < 100; i++) {
+for (let i = 0; i < 0; i++) {
   data.push(generate());
 }
 
